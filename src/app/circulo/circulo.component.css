@@ -1,8 +1,4 @@
-svg {
-  width: 300px;
-  display: block;
-  position: absolute;
-}
+
 svg .line1 {
   stroke-dasharray: 340;
   stroke-dashoffset: 40;
