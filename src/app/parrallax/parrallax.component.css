@@ -55,6 +55,9 @@ body,html{
 
 /* The styling for the static div. */
 .static {
+  background: blue;
+}
+.staticred {
   background: red;
 }
 
