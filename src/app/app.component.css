@@ -1,0 +1,92 @@
+ 
+  /* a */
+
+  header{
+
+    float: left;
+    clear: both
+
+
+
+  }
+  input{
+    display: none
+  }
+.perra:checked ~.puta {
+  display: block;
+}
+ 
+ .puta{
+    display: none;
+   
+  }
+
+  input:checked + label{ 
+   
+   color: green;
+   
+   
+   } 
+
+ .ya:checked ~ .caja1{
+
+
+ display: none;
+ }
+ 
+ .caja1{
+     display: block;
+ }
+ 
+ 
+ 
+ 
+ 
+ div 
+  {
+    height: 100px;
+     width: 100px;
+    background: green;
+    border: 10px solid red ;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 20px;
+    /* Con float hacemos que todo los div floten a la izquierda */
+    float: left;
+    position: relative;
+    
+
+    }
+  
+
+.cajapadre{
+width: 300px;
+height: 300px;
+  position: relative;
+}
+
+
+/* ver la diferencia entre relative y absolute */
+
+  .cajahijo{
+
+position: absolute;
+top: 3%;
+left: 33%;
+
+  }
+
+  .caja3{
+
+  clear: both;
+
+
+  }
+  .caja3:checked{
+
+color: blue;
+
+  }
