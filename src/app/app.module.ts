@@ -14,6 +14,6 @@ import { ParrallaxComponent } from './parrallax/parrallax.component';
   declarations: [ AppComponent, ListasComponent, CirculoComponent, ParrallaxComponent ],
 
   // esto es para decirle con cual componenete empezar
-  bootstrap:    [ ParrallaxComponent ]
+  bootstrap:    [ ListasComponent ]
 })
 export class AppModule { }
