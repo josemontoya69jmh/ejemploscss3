@@ -1,6 +1,9 @@
 div {
   position: relative;
-  background: url("https://cdn.jsdelivr.net/gh/josemontoya69jmh/ejemploscss3@master/src/app/assets/pequena.jpg");
+  background: url("https://cdn.jsdelivr.net/gh/josemontoya69jmh/ejemploscss3@master/src/app/assets/pequena.jpg") ;
+   background-blend-mode: color-dodge;
+   filter:  invert(1);
+   
   width: 500px;
   height: 500px;
 
