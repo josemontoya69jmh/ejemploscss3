@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listas.component.css']
 })
 export class ListasComponent implements OnInit {
-
+  mySwiper: Swiper;
   constructor() { }
 
   ngOnInit() {
